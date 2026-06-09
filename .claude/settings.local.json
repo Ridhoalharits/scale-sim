@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo --version)",
+      "Read(//Users/ridhoalharits/.cargo/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(~/.cargo/bin/cargo --version)",
+      "Bash(~/.rustup/toolchains/stable-aarch64-apple-darwin/bin/cargo --version)",
+      "Bash(zsh -lic 'which cargo; cargo --version')",
+      "Bash(cargo test *)",
+      "Bash(cargo clippy *)",
+      "Bash(rustup target *)",
+      "Bash(brew install *)",
+      "Bash(cargo build *)"
+    ]
+  }
+}
